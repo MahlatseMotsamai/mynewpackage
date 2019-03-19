@@ -1,23 +1,22 @@
 # mynewpackage
 
-mynewpackage is a Python library for dealing with word pluralization.
+mynewpackage is a Python library used as an assignment for our school work at EDSA
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use the package manager [pip] git+https://github.com/MahlatseMotsamai/mynewpackage.git to install mynewpackage.
 
 ```bash
-pip install foobar
+pip install git+https://github.com/MahlatseMotsamai/mynewpackage.git
 ```
 
 ## Usage
 
 ```python
-import foobar
+import mynewpackage
 
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+ mynewpackage.def sum_array(array): # Return sum of all items in array'
+ mynewpackage.def bubble_sort(items):# Implementation of bubble sort'
 ```
 
 ## Contributing
