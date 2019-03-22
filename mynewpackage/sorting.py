@@ -21,13 +21,13 @@ def merge_sort(items):
         else:
             new_list.append(B[0])
             B.pop(0)
-      if len(A) == 0:
-          new_list = new_list + B
-      elif len(B) == 0:
-          new_list = new_list + A
+    if len(A) == 0:
+        new_list = new_list + B
+    if len(B) == 0:
+        new_list = new_list + A
 
 
-      return new_list
+    return new_list
 
    len_i == len(items)
    if len_i == 1
