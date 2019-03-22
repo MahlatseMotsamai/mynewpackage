@@ -28,7 +28,7 @@ def merge_sort(items):
 
         return new_list
 
-    len_i == len(items)
+    len_i = len(items)
     if len_i == 1:
         return items
 
